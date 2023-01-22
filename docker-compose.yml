@@ -1,4 +1,6 @@
-phpmyadmin:
+version: '3.1'
+
+  phpmyadmin:
     image: phpmyadmin
     container_name: phpmyadmin
     environment:
